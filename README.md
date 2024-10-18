@@ -7,10 +7,16 @@
 
 ## Installation of node
 
-> from base dir:
+> In your node-red user directory
 
 ```sh
-npm install .\customnodes\module-name\
+cd .\node_modules\node-red\
+```
+
+run
+
+```sh
+npm install ..\..\customnodes\module-name\
 ```
 
 > ! project updates with every new installation - package.json
