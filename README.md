@@ -7,16 +7,4 @@
 
 ## Installation of node
 
-> In your node-red user directory
-
-```sh
-cd .\node_modules\node-red\
-```
-
-run
-
-```sh
-npm install ..\..\customnodes\module-name\
-```
-
-> ! project updates with every new installation - package.json
+> ??
