@@ -17,3 +17,12 @@ npm install C:\work\nodered\customnodes\lower-case\
 Location of the core nodes are in the project folder:
 
 > C:\work\nodered\node_modules\@node-red\nodes\core
+
+Password protect the Node-RED editor:  
+locate the directory Node-RED has been installed to and use the command:
+
+```sh
+node -e "console.log(require('bcryptjs').hashSync(process.argv[1], 8));" your-password-here
+```
+
+passwd stored in settings.js in "C:\Users\windowsuser\\.node-red" folder, adminAuth
