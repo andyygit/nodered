@@ -19,7 +19,7 @@ Location of the core nodes are in the project folder:
 > C:\work\nodered\node_modules\@node-red\nodes\core
 
 Password protect the Node-RED editor:  
-locate the directory Node-RED has been installed to and use the command:
+locate the directory Node-RED has been installed to and use the command: (https://nodered.org/docs/user-guide/runtime/securing-node-red#refreshing-https-certificates)
 
 ```sh
 node -e "console.log(require('bcryptjs').hashSync(process.argv[1], 8));" your-password-here
